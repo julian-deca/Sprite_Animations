@@ -1,0 +1,36 @@
+#canvas1 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+}
+.controls {
+  position: absolute;
+  z-index: 10;
+  top: 50px;
+  left: 50%;
+  transform: translate(-80%);
+}
+.controls,
+select,
+option {
+  font-size: 25px;
+}
+option,
+select {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+}
+body {
+  background-color: gray;
+}
+#ground {
+  width: 100%;
+  background-color: black;
+  height: calc(40% - 200px);
+  position: absolute;
+  top: calc(60% + 200px);
+  left: 0;
+}
